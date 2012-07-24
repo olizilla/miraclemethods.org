@@ -91,7 +91,7 @@ html, body, #main, iframe {
 }
 
 .home nav {
-    width:810px;
+    max-width:810px;
     height:700px;
     margin: 0 auto;
     background: transparent url("../img/nav-crystal-500.jpg") center center no-repeat;
@@ -134,9 +134,11 @@ h1,h2,h3 {
 .credits h2 {
     padding-bottom: 300px;
 }
-.credits header h1,
+.credits header h1 {
+	margin-bottom: 0;
+}
 .credits header h2 {
-    line-height: 0.4em;
+    margin-top:0;
     padding:0;
 }
 h1 {
