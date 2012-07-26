@@ -90,7 +90,7 @@ html, body, #main, iframe {
     border:0 none;
 }
 
-.home nav {
+.home-500 nav {
     max-width:810px;
     height:700px;
     margin: 0 auto;
@@ -98,6 +98,16 @@ html, body, #main, iframe {
     position: relative;
     font-size: 1.6em;
     letter-spacing: 1px;
+}
+
+.home nav {
+  max-width:700px;
+  height:550px;
+  margin: 0 auto;
+  background: transparent url("../img/nav-crystal-380.jpg") center center no-repeat;
+  position: relative;
+  font-size: 1.6em;
+  letter-spacing: 1px;
 }
 
 .east, .west, .north, .south {
@@ -108,13 +118,13 @@ html, body, #main, iframe {
     width: 100%;
 }
 .north, .south {
-    top:330px;
+    top:260px;
 }
 .east { /* top */
-    top:50px;
+    top:30px;
 }
 .west{ /* bottom */
-    bottom:50px;
+    bottom:30px;
 }
 .north { /*left */
     left:0;
@@ -124,7 +134,7 @@ html, body, #main, iframe {
 }
 
 .credits {
-    padding-top:600px;
+    padding-top:400px;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -164,6 +174,10 @@ p {
 
 }
 
+.more {
+  height:60px;
+  background: transparent url("../img/down.png") center bottom no-repeat;
+}
 /* ---- END miraclemethods.org -------------------------------------------------------------------------------------- */
 
 
