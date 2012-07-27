@@ -185,7 +185,8 @@ p {
 
 #west #main {
   width: 100%;
-  height: 480px;
+  /*height: 480px;*/
+  overflow:hidden;
 }
 /* ---- END miraclemethods.org -------------------------------------------------------------------------------------- */
 
