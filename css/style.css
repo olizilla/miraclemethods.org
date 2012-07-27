@@ -183,7 +183,7 @@ p {
   background: transparent url("../img/down.png") center bottom no-repeat;
 }
 
-.video #main {
+body.video #main {
   width: 100%;
   overflow:hidden;
 }
