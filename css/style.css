@@ -183,9 +183,8 @@ p {
   background: transparent url("../img/down.png") center bottom no-repeat;
 }
 
-#west #main {
+.video #main {
   width: 100%;
-  /*height: 480px;*/
   overflow:hidden;
 }
 /* ---- END miraclemethods.org -------------------------------------------------------------------------------------- */
